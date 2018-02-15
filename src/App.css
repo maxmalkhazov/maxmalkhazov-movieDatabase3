@@ -1,0 +1,40 @@
+.search-box {
+  text-align: center;
+  margin: 3rem auto 2rem auto; 
+}
+
+.search-btn {
+  width: 5rem;
+  background-color: #d91a0c;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: .6rem .75rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
+}
+
+.search-btn:hover,
+.search-btn:active {
+  background-color: #b9160a;
+  outline: 0;
+}
+
+.search-box {
+  color: white;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-right: 1rem;
+  width: 20rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.header {
+  font-family: "Fjalla One";
+  font-weight: 300;
+  color: #fff;
+}

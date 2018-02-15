@@ -1,0 +1,36 @@
+.main {
+	height: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	color: white;
+	background-color: #232323;
+	padding: 1rem;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
+	transition: all .4s ease-out;
+	width: 100%;
+	max-width: 500px;
+}
+
+.main:hover {
+	transform: scale(1.1);
+}
+
+.card {
+
+}
+
+.poster {
+	border: 1px solid #fff;
+}
+
+.title {
+	font-weight: 300;
+}
+
+.rating {
+	text-align: left;
+	font-size: 1.2em;
+	color: #15FF00;
+}
