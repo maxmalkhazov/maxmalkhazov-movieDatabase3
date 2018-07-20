@@ -1,3 +1,15 @@
+# Movie Database
+
+*This app allows the user to search for movies.*
+
+## Usage
+
+The search will return all movie titles that include the query provided by the user, sorted by the most relevant query.
+
+## Built With
+
+React, CSS3, Bootstrap, Tachyons.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
