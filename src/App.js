@@ -15,7 +15,7 @@ class App extends Component {
     
     clicked() {
         this.setState({input: this.refs.searchBox.value});
-        console.log(this.state.input)
+        this.refs.searchBox.value = '';
     }
     
     componentWillUpdate() {
@@ -33,7 +33,14 @@ class App extends Component {
         return (
             <div className="tc">
                 <h1 className="header tc f1">Movie Database</h1>
-                <input className="search-box" ref="searchBox" type="text"/>
+                <input className="search-box" onKeyPress={ (e) => {
+                    if (e.which === 13) {
+                        this.clicked();
+                    }
+                } } 
+                    ref="searchBox" 
+                    autoFocus={true}
+                    type="text"/>
                 <button className="search-btn" onClick={ (e) => { this.clicked(); } }>Go!</button>
                 <MovieList movies={filteredMovies} />
             </div>
